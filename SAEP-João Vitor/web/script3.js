@@ -124,7 +124,5 @@ window.onload = () => {
     tarefas.push(novaTarefa);
     localStorage.setItem('tarefas', JSON.stringify(tarefas));
   
-    // Após salvar, redireciona para a tela de gerenciamento de tarefas
-    window.location.href = "";
   }
   
